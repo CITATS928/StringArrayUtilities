@@ -8,6 +8,7 @@ public class IsPangramicTest {
     @Test
     public void testIsPangramic1() {
         String[] array = {"The quick brown", "Fox jumps over", "The lazy dog"};
+        System.out.println(StringArrayUtils.isPangramic(array));
         boolean outcome = StringArrayUtils.isPangramic(array);
         Assert.assertTrue(outcome);
     }
